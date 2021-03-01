@@ -1,0 +1,125 @@
+body {
+  background-color: white;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  width: 100%;
+}
+
+.header ul {
+  list-style-type: none;
+  margin: 20px 30px;
+  padding: 0;
+  overflow: hidden;
+}
+
+.header li {
+  float: right;
+  margin-right: 16px;
+  font-size: 13px;
+}
+
+.header li a {
+  display: block;
+  float: right;
+  text-decoration: none;
+  color: #1e1e1e;
+  font-family: 'Arial', sans-serif;
+}
+
+.header li a:hover {
+  text-decoration: underline;
+}
+
+
+#logo {
+  margin-left: 600px;
+  
+  width: 20em;
+  padding-top: 140px;
+  align-items: center;
+}
+
+.search {
+  width: 100%;
+  position: static;
+  float: none;
+}
+
+.searchTerm {
+  -webkit-font-smoothing: antialiased;
+  line-height: normal;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  display: block;
+  width: 570px;
+  border: 1px solid #e4e4e4;
+  padding: 5px;
+  height: 33px;
+  border-radius: 1px;
+  outline: none;
+  color: black;
+  font-size: 16px;
+  box-shadow: 0 2px 2px 0px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.03);
+}
+
+.searchTerm:hover {
+  box-shadow: 1px 4px 8px 1px rgba(0, 0, 0, 0.08), 0 8px 20px 0 rgba(0, 0, 0, 0.07);
+}
+
+.buttons {
+  text-align: center;
+}
+
+button {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  background-color: #efefef;
+  border: none;
+  color: #454545;
+  text-align: center;
+  border-radius: 2px;
+  border: 1px solid #e7e7e7;
+  font-size: 14px;
+  height: 35px;
+  padding: 0 20px;
+  margin-right: 5px;
+  text-decoration: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.04), 0 6px 20px 0 rgba(0, 0, 0, 0.03);
+}
+
+button:hover {
+  border: 1px solid #acacac;
+  color: black;
+}
+
+.footer {
+  position: fixed;
+  display: block;
+  left: 0;
+  width: 100%;
+  bottom: 0;
+}
+
+.footer-one {
+  background-color: #f1f1f1;
+  width: 100%;
+  height: 47px;
+  border-top: 1px solid #dadada;
+}
+
+.footer p {
+  margin-left: 30px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  display: inline-block;
+  color: #757575;
+  font-size: 15px;
+  font-family: 'Arial', sans-serif;
+}
+
